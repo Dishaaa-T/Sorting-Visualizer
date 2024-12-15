@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #array-container {
+            display: flex;
+            align-items: flex-end;
+            gap: 5px;
+            margin: 20px 0;
+            height: 200px;
+        }
+
+        .bar {
+            width: 20px;
+            background-color: blue;
+            transition: height 0.3s, background-color 0.3s;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div id="array-container"></div>
+    <button id="generate-array">Generate Array</button>
+    <button id="sort-array">Sort Array</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
