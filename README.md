@@ -45,7 +45,7 @@ A web-based interactive tool to visualize popular sorting algorithms in action. 
 ---
 ## Purpose
 - To improve basic Frontend Skills
-- To improve Understandings to Traditional Sorting Alogrithms
+- To improve Understandings of Traditional Sorting Alogrithms
 
 
 
